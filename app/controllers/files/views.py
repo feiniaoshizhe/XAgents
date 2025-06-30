@@ -8,10 +8,12 @@ Time: 2025/6/27 19:01
 """
 from fastapi import APIRouter
 
-router = APIRouter()
+from controllers.files.schema import UploadFileDTO
+
+router = APIRouter(prefix="/file")
 
 
-@router.get("/", response_model=UploadFileDTO)
+@router.get("/upload", response_model=UploadFileDTO)
 async def upload_files(
 
 ):
