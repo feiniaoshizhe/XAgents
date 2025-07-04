@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/fast_rag.iml" filepath="$PROJECT_DIR$/.idea/fast_rag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/XAgents.iml" filepath="$PROJECT_DIR$/.idea/XAgents.iml" />
     </modules>
   </component>
 </project>

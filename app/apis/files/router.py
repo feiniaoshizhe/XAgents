@@ -8,7 +8,7 @@ Time: 2025/6/27 19:01
 """
 from fastapi import APIRouter
 
-from controllers.files.schema import UploadFileDTO
+from apis.files.schema import UploadFileDTO
 
 router = APIRouter(prefix="/file")
 

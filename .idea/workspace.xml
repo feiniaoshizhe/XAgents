@@ -5,42 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae8928f-921e-4b79-87c7-b3540d459c82" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/mcp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/xverse/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/xverse/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/xverse/file_process/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/xverse/vector_database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/xverse/vector_database/elastic_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/xverse/vector_database/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fast_rag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fast_rag.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/apis/agents/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/apis/agents/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/apis/agents/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/apis/workflows/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/auth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/auth/account_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fast_rag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/XAgents.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.python-version" beforeDir="false" afterPath="$PROJECT_DIR$/app/.python-version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/app_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/app_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/deploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/deploy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/feature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/middleware/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/middleware/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/middleware/cache/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/middleware/cache/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/middleware/cache/redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/middleware/cache/redis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/middleware/vector_db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/middleware/vector_db/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/middleware/vector_db/elastic_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/middleware/vector_db/elastic_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/middleware/vector_db/milvus.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/middleware/vector_db/milvus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/configs/packaging.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/packaging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/files/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/files/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/files/schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controllers/files/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/files/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/embedding/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/embedding/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/files/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/files/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/files/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/files/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/files/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/mcp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/mcp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/uv.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +41,17 @@
         <option value="FastAPI test_main" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="FormatOnSaveOptions">
@@ -86,7 +84,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Project/__Github__/fast_rag/sdk",
+    "last_opened_file_path": "C:/Project/__Github__/xagents/app",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -96,13 +94,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\__Github__\xagents\" />
+      <recent name="C:\Project\__Github__\xagents\docs" />
       <recent name="C:\Project\__Github__\fast_rag\app\controllers" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="fast_rag" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
-      <module name="fast_rag" />
+      <module name="XAgents" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -126,6 +126,11 @@
       <workItem from="1750996175742" duration="5047000" />
       <workItem from="1751015937186" duration="4311000" />
       <workItem from="1751247015361" duration="5311000" />
+      <workItem from="1751417737003" duration="1993000" />
+      <workItem from="1751504052757" duration="593000" />
+      <workItem from="1751590442658" duration="2586000" />
+      <workItem from="1751606753828" duration="746000" />
+      <workItem from="1751607527436" duration="6455000" />
     </task>
     <servers />
   </component>
