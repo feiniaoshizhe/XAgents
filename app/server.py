@@ -1,4 +1,5 @@
 import logging
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -10,7 +11,22 @@ from configs import settings
 
 logger = logging.getLogger("main service")
 
-app = FastAPI()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Handle application startup and shutdown events."""
+    logger.info("application_startup")
+    yield
+    logger.info("application_shutdown")
+
+
+app = FastAPI(
+    title=settings.PROJECT_NAME,
+    version=settings.CURRENT_VERSION,
+    description=settings.DESCRIPTION,
+    openapi_url=f"{settings.API_V1_STR}/openapi.json",
+    lifespan=lifespan,
+)
 
 app.add_middleware(
     CORSMiddleware,
@@ -20,7 +36,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allows all headers
 )
 
-app.include_router(app_router)
+app.include_router(app_router, prefix=settings.API_V1_STR)
 # 绑定 mcp 服务
 mcp = FastApiMCP(app)
 mcp.mount(mcp_router)

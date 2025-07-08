@@ -3,14 +3,6 @@
 """
 Copyright DataGrand Tech Inc. All Rights Reserved.
 Author: youshun xu
-File: schema
-Time: 2025/7/4 13:48
+File: __init__.py
+Time: 2025/7/7 9:57
 """
-
-
-class ChatResponse:
-    pass
-
-
-class ChatRequest:
-    pass

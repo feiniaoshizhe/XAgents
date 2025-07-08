@@ -5,29 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae8928f-921e-4b79-87c7-b3540d459c82" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/app/apis/agents/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/apis/agents/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/apis/agents/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/apis/workflows/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/auth/account_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/logging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fast_rag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/XAgents.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/configs/security/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/langgraph/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/langgraph/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/langgraph/tools/duckduckgo_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/limiter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/prompts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/prompts/system.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/security.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/schemas/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/schemas/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/files/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/files/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/files/schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/files/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/files/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/mcp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/mcp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apis/agents/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/agents/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/apis/agents/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/apis/agents/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/configs/app_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/configs/app_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/uv.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.gitkeep" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,21 +73,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Project/__Github__/xagents/app",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Project/__Github__/xagents/app&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Project\__Github__\xagents\" />
@@ -130,7 +126,9 @@
       <workItem from="1751504052757" duration="593000" />
       <workItem from="1751590442658" duration="2586000" />
       <workItem from="1751606753828" duration="746000" />
-      <workItem from="1751607527436" duration="6455000" />
+      <workItem from="1751607527436" duration="6547000" />
+      <workItem from="1751849597766" duration="11577000" />
+      <workItem from="1751935953575" duration="594000" />
     </task>
     <servers />
   </component>
